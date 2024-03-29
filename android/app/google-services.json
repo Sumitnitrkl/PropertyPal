@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "765521806503",
+    "project_id": "mozo-b8a10",
+    "storage_bucket": "mozo-b8a10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765521806503:android:aab3677be825e82f220782",
+        "android_client_info": {
+          "package_name": "com.example.untitled4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSKF3SVkxl-NI9GEJz8cNrgK-Gu8TNt7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
