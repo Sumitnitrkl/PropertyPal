@@ -3,7 +3,6 @@
 ## Table of contents
 * [Introduction](#Introduction)
 * [Features](#Features)
-* [Installation](#Features)
 * [Technologies Used](#TechnologiesUsed)
 * [Installation](#Installation)
 
