@@ -1,16 +1,31 @@
-# untitled4
+# PropertyPal
 
-A new Flutter project.
+## Table of contents
+* [Introduction](#Introduction)
+* [Features](#Features)
+* [Installation](#Features)
+* [Technologies Used](#TechnologiesUsed)
+* [Installation](#Installation)
 
-## Getting Started
+## Introduction
+Property Pal is an innovative mobile application designed to revolutionize the property listing experience. With our app, users can explore properties through immersive 360-degree virtual tours, providing a realistic view of apartments and hotels without physically visiting the location. We understand the challenges faced by buyers when selecting properties based solely on images and videos, and our goal is to simplify the process by offering virtual tours that recreate the real-life experience.
 
-This project is a starting point for a Flutter application.
+## Features
+1.Property Listing: Owners can easily list their properties on our platform, providing detailed information and images.
+2.Property Maintenance: Property owners can manage and maintain their listings, ensuring accurate and up-to-date information for potential buyers.
+3.Buying Guide: Users can access guides and resources to assist them in the property buying process, making informed decisions.
+4.FAQs: Frequently Asked Questions section to address common queries and concerns regarding property listings and transactions.
+5.Virtual Tours: Experience immersive 360-degree virtual tours of properties, allowing users to explore every corner and detail.
+6.Digital Transactions: Secure digital transactions for property purchases, ensuring a seamless and efficient process.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
+Flutter: Cross-platform framework for building mobile applications.
+Firebase: Backend services for authentication, database, and storage.
+Klapty: Platform for creating and sharing 360-degree virtual tours.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
+To use the Property Pal app, follow these steps:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Download APK: Install the APK file on your Android device.
+Login: Sign in with your Gmail account and password.
+Explore: Start exploring properties through immersive virtual tours and access additional features like property listings, maintenance, guides, FAQs, and digital transactions.
