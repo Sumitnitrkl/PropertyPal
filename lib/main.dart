@@ -1,7 +1,9 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:untitled4/services/firebase_services.dart';
 
 import 'Wrapper.dart';
 import 'auth.dart';
@@ -17,6 +19,9 @@ void main() async{
       storageBucket: 'mozo-b8a10.appspot.com',
     ),
   );
+  FirebaseFirestore.instance.settings = Settings(
+    persistenceEnabled: true,
+  );
 
 
   runApp(MyApp());
@@ -30,6 +35,7 @@ class MyApp extends StatelessWidget {
 
     return MultiProvider(providers:[
       StreamProvider<User?>.value(value: AuthService().user, initialData: null,),
+      Provider<FirestoreService>(create: (_) => FirestoreService()),
     ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,

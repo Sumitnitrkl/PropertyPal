@@ -1,8 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:untitled4/users_type/seller.dart';
 import 'dart:math';
 
-
+import 'package:url_launcher/url_launcher.dart';
 
 class Home extends StatefulWidget {
   final String title;
@@ -153,9 +154,14 @@ class _HomeState extends State<Home> {
         backgroundColor: Colors.black45,
         title: Text(widget.title),
         actions: [
-          TextButton(onPressed: (){
-              FirebaseAuth.instance.signOut();
-          }, child: Text('Logout',style: TextStyle(fontSize: 22),)),
+          TextButton(
+              onPressed: () {
+                FirebaseAuth.instance.signOut();
+              },
+              child: Text(
+                'Logout',
+                style: TextStyle(fontSize: 22),
+              )),
           Switch(
             value: imagesVisible,
             activeColor: Colors.yellowAccent,
@@ -165,9 +171,7 @@ class _HomeState extends State<Home> {
               });
             },
           ),
-
-        ]
-    );
+        ]);
   }
 
   Container _buildBody() {
@@ -177,7 +181,7 @@ class _HomeState extends State<Home> {
           scrollDirection: Axis.vertical,
           child: Column(
             children:
-            cardContent.map((cardData) => _buildCard(cardData)).toList(),
+                cardContent.map((cardData) => _buildCard(cardData)).toList(),
           )),
     );
   }
@@ -211,11 +215,18 @@ class _HomeState extends State<Home> {
               children: [
                 TextButton(
                   child: const Text('CONTACT AGENT'),
-                  onPressed: () {/* ... */},
+                  onPressed: () {
+                    /* ... */
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>SellerScreen()));
+                  },
                 ),
                 TextButton(
                   child: const Text('LEARN MORE'),
-                  onPressed: () {/* ... */},
+                  onPressed: () async {
+                    /* ... */
+                    const url = 'https://tour.klapty.com/dDY0h4zg5S/?deeplinking=true&startscene=1&startactions=lookat(57.05,-0.46,90,0,0);';
+                    await launchUrl(Uri.parse(url));
+                  },
                 )
               ],
             )

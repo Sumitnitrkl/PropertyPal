@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:untitled4/services/firebase_services.dart';
 
 import '../auth.dart';
 import '../position_for_stack_in_sign_in_page.dart';
@@ -208,8 +209,10 @@ class _RegisterPageState extends State<RegisterPage> {
               onPressed: () async {
                 if (_formKey.currentState?.validate() ?? false) {
                   // _auth.sendVerificationLink(email!);
+
                   dynamic result = await _auth.registerUserWithEmailAndPassword(
                       email!, password!);
+                await  FirestoreService().addUser( password!, dropdownvalue);
                   if (result == null) {
                     setState(() {
                       error = 'Invalid Credentials';
