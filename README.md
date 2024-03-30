@@ -25,9 +25,9 @@ Klapty: Platform for creating and sharing 360-degree virtual tours.
 ## Installation
 To use the Property Pal app, follow these steps:
 
-Download APK: Install the APK file on your Android device.
-Login: Sign in with your Gmail account and password.
-Explore: Start exploring properties through immersive virtual tours and access additional features like property listings, maintenance, guides, FAQs, and digital transactions.
+Download APK: Install the APK file on your Android device.<br/>
+Login: Sign up with your Gmail account and password.<br/>
+Explore: Start exploring properties through immersive virtual tours and access additional features like property listings, maintenance, guides, FAQs, and digital transactions.<br/>
 
 
 ![ADX1](https://github.com/Sumitnitrkl/PropertyPal/assets/121357559/c9caf388-ce7a-4e4f-9cbe-f948a0bf0c8b)
