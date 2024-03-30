@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'guides.dart';
+
 class DiscussionForumPage extends StatefulWidget {
   @override
   _DiscussionForumPageState createState() => _DiscussionForumPageState();
@@ -105,20 +107,6 @@ class _DiscussionForumPageState extends State<DiscussionForumPage> {
   void dispose() {
     _questionController.dispose();
     super.dispose();
-  }
-}
-
-class GuidesPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Guides/Articles'),
-      ),
-      body: Center(
-        child: Text('Guides/Articles Page'),
-      ),
-    );
   }
 }
 
