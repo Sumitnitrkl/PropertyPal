@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:untitled4/auth.dart';
 import 'package:untitled4/services/firebase_services.dart'; // Import the FirestoreService
+import 'package:untitled4/users_type/seller_card.dart';
 import 'image_txt_popUp.dart'; // Import the image text pop-up
 
 class SellerScreen extends StatelessWidget {
@@ -75,49 +76,4 @@ class SellerCardsList extends StatelessWidget {
   }
 }
 
-class SellerCard extends StatelessWidget {
-  final Map<String, dynamic> data;
-
-  const SellerCard({Key? key, required this.data}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Card(
-      margin: EdgeInsets.symmetric(vertical: 8),
-      elevation: 4, // Add elevation for a shadow effect
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12), // Rounded corners
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          ClipRRect(
-            borderRadius: BorderRadius.vertical(top: Radius.circular(12)),
-            child: AspectRatio(
-              aspectRatio: 16 / 9, // Aspect ratio of the image
-              child: data['imageURL'] != null
-                  ? Image.network(
-                data['imageURL'],
-                fit: BoxFit.cover,
-              )
-                  : Container(
-                color: Colors.grey, // Placeholder color if image is not available
-              ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Text(
-              data['text'] ?? '', // Display text
-              style: TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
 
