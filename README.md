@@ -40,5 +40,9 @@ Explore: Start exploring properties through immersive virtual tours and access a
 
 
 
-https://github.com/Sumitnitrkl/PropertyPal/assets/121357559/3cc07123-52cf-4232-adbf-ca032937fff8
+
+https://github.com/Sumitnitrkl/PropertyPal/assets/121357559/ef00b6cf-aa6b-4f1c-888b-16d2dedae66a
+
+
+
 
