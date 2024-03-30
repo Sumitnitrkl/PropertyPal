@@ -38,3 +38,7 @@ Explore: Start exploring properties through immersive virtual tours and access a
 
 ![ADX1](https://github.com/Sumitnitrkl/PropertyPal/assets/121357559/c9caf388-ce7a-4e4f-9cbe-f948a0bf0c8b)
 
+
+
+https://github.com/Sumitnitrkl/PropertyPal/assets/121357559/3cc07123-52cf-4232-adbf-ca032937fff8
+
