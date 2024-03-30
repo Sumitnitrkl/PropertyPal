@@ -38,10 +38,3 @@ Explore: Start exploring properties through immersive virtual tours and access a
 
 ![ADX1](https://github.com/Sumitnitrkl/PropertyPal/assets/121357559/c9caf388-ce7a-4e4f-9cbe-f948a0bf0c8b)
 
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
