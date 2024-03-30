@@ -1,4 +1,5 @@
-# PropertyPal
+# untitled4
+
 
 ## Table of contents
 * [Introduction](#Introduction)
@@ -6,8 +7,13 @@
 * [Technologies Used](#TechnologiesUsed)
 * [Installation](#Installation)
 
-## Introduction
-Property Pal is an innovative mobile application designed to revolutionize the property listing experience. With our app, users can explore properties through immersive 360-degree virtual tours, providing a realistic view of apartments and hotels without physically visiting the location. We understand the challenges faced by buyers when selecting properties based solely on images and videos, and our goal is to simplify the process by offering virtual tours that recreate the real-life experience.
+
+## Getting Started
+
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
 
 ## Features
 1.Property Listing: Owners can easily list their properties on our platform, providing detailed information and images.<br/>
@@ -33,3 +39,9 @@ Explore: Start exploring properties through immersive virtual tours and access a
 ![ADX1](https://github.com/Sumitnitrkl/PropertyPal/assets/121357559/c9caf388-ce7a-4e4f-9cbe-f948a0bf0c8b)
 
 
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
