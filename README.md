@@ -10,12 +10,12 @@
 Property Pal is an innovative mobile application designed to revolutionize the property listing experience. With our app, users can explore properties through immersive 360-degree virtual tours, providing a realistic view of apartments and hotels without physically visiting the location. We understand the challenges faced by buyers when selecting properties based solely on images and videos, and our goal is to simplify the process by offering virtual tours that recreate the real-life experience.
 
 ## Features
-1.Property Listing: Owners can easily list their properties on our platform, providing detailed information and images.
-2.Property Maintenance: Property owners can manage and maintain their listings, ensuring accurate and up-to-date information for potential buyers.
-3.Buying Guide: Users can access guides and resources to assist them in the property buying process, making informed decisions.
-4.FAQs: Frequently Asked Questions section to address common queries and concerns regarding property listings and transactions.
-5.Virtual Tours: Experience immersive 360-degree virtual tours of properties, allowing users to explore every corner and detail.
-6.Digital Transactions: Secure digital transactions for property purchases, ensuring a seamless and efficient process.
+1.Property Listing: Owners can easily list their properties on our platform, providing detailed information and images.<br/>
+2.Property Maintenance: Property owners can manage and maintain their listings, ensuring accurate and up-to-date information for potential buyers.<br/>
+3.Buying Guide: Users can access guides and resources to assist them in the property buying process, making informed decisions.<br/>
+4.FAQs: Frequently Asked Questions section to address common queries and concerns regarding property listings and transactions.<br/>
+5.Virtual Tours: Experience immersive 360-degree virtual tours of properties, allowing users to explore every corner and detail.<br/>
+6.Digital Transactions: Secure digital transactions for property purchases, ensuring a seamless and efficient process.<br/>
 
 ## Technologies Used
 Flutter: Cross-platform framework for building mobile applications.
