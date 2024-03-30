@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:untitled4/auth.dart';
 import 'package:untitled4/services/firebase_services.dart'; // Import the FirestoreService
 import 'package:untitled4/users_type/seller_card.dart';
+import 'buyers.dart';
 import 'image_txt_popUp.dart'; // Import the image text pop-up
 
 class SellerScreen extends StatelessWidget {
@@ -18,6 +19,7 @@ class SellerScreen extends StatelessWidget {
           }, child: Text('Logout'))
         ],
       ),
+      drawer: DrawerWidget(),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(

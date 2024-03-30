@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:untitled4/users_type/details_page.dart';
 
+import 'chat_bot.dart';
+
 class SellerCard extends StatelessWidget {
   final Map<String, dynamic> data;
 
@@ -45,6 +47,13 @@ class SellerCard extends StatelessWidget {
                 ),
               ),
             ),
+            Row(
+              children: [
+                TextButton(onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>ChatPage(buyerId: 'buyer@gamil.com', sellerId: 'seller@gmail.com',)));
+                }, child: Text('Contact Buyer/Seller'))
+              ],
+            )
           ],
         ),
       ),

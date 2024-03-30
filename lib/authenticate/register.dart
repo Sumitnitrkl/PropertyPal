@@ -69,6 +69,14 @@ class _RegisterPageState extends State<RegisterPage> {
     'Seller',
     'Buyer'
   ];
+  String dropdowncity='Chennai';
+  var dropList=[
+    'Chennai',
+    'Bangalore',
+    'Delhi',
+    'Mumbai',
+    'Kolkata'
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -138,7 +146,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       }
                     },
                   ),
-                  SizedBox(height: 30,),
+                  SizedBox(height: 20,),
                   Container(
                     width: double.infinity, // Cover entire width of the screen
                     child: InputDecorator(
@@ -173,6 +181,46 @@ class _RegisterPageState extends State<RegisterPage> {
                         onChanged: (String? newValue) {
                           setState(() {
                             dropdownvalue = newValue!;
+                          });
+                        },
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 20,),
+                  Container(
+                    width: double.infinity, // Cover entire width of the screen
+                    child: InputDecorator(
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10.0), // Adjust border radius as needed
+                        ),
+                        contentPadding: EdgeInsets.symmetric(horizontal: 16.0), // Adjust content padding
+                      ),
+                      child: DropdownButton(
+                        // Initial Value
+                        value: dropdowncity,
+
+                        // Down Arrow Icon
+                        icon: const Icon(Icons.keyboard_arrow_down),
+
+                        // Array list of items
+                        items: dropList.map((String items) {
+                          return DropdownMenuItem(
+                            value: items,
+                            child: Row( // Use Row to customize the layout of icon and text
+                              children: [
+                                Icon(Icons.keyboard_arrow_down), // Custom icon on the left
+                                SizedBox(width: 10), // Add some space between icon and text
+                                Text(items),
+                              ],
+                            ),
+                          );
+                        }).toList(),
+
+                        // After selecting the desired option, it will change button value to selected value
+                        onChanged: (String? newValue) {
+                          setState(() {
+                            dropdowncity = newValue!;
                           });
                         },
                       ),
